@@ -1,15 +1,15 @@
 <template>
-  <div>hi</div>
-  <Fang />
+  <div>
+    导航栏 | 
+    <router-link to="/">Fang</router-link> |
+    <router-link to="/xxx">Fang2</router-link>
+  </div>
+  <hr />
+  <router-view />
 </template>
 
 <script>
-import Fang from './components/Fang.vue'
-
 export default {
   name: 'App',
-  components: {
-    Fang
-  }
 }
 </script>
