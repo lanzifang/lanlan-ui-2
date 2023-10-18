@@ -1,76 +1,12 @@
 <template>
     <div>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
-        <p>Switch的内容</p>
+        <Switch />
     </div>
 </template>
+
+<script lang="ts">
+import Switch from '../lib/Switch.vue'
+export default{
+    components:{Switch}
+}
+</script>
